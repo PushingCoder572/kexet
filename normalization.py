@@ -1,5 +1,5 @@
 import os
-from PIL import Image
+import cv2 as cv
 import numpy as np
 
 input_dir = "images_normalized"
@@ -16,19 +16,11 @@ def main():
         ):  # Add more extensions if needed
             # Open the image file
             img_path = os.path.join(input_dir, filename)
-            img = Image.open(img_path)
+            img = cv.imread(img_path, cv.IMREAD_UNCHANGED)
+            norm_img = np.zeros((800, 800))
+            final_img = cv.normalize(img, norm_img, 0, 255, cv.NORM_MINMAX)
 
-            # Convert the image data to a NumPy array
-            img_array = np.array(img)
-
-            # Normalize the pixel values to the range 0-1
-            img_array = img_array.astype("float32") / 255.0
-
-            # Convert the normalized array back to an image
-            normalized_img = Image.fromarray(img_array)
-
-            # Save the normalized image to the output directory
-            normalized_img.save(os.path.join(output_dir, filename))
+            cv.imwrite(os.path.join(output_dir, filename), final_img)
 
 
 if __name__ == "__main__":

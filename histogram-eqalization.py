@@ -21,10 +21,16 @@ def main():
                 img is not None
             ), "file could not be read, check with os.path.exists()"
 
-            clahe = cv.createCLAHE(clipLimit=2.0, tileGridSize=(8, 8))
-            cl1 = clahe.apply(img)
+            # convert from RGB color-space to YCrCb
+            ycrcb_img = cv.cvtColor(img, cv.COLOR_BGR2YCrCb)
 
-            cv.imwrite(os.path.join(output_dir, filename), cl1)
+            # equalize the histogram of the Y channel
+            ycrcb_img[:, :, 0] = cv.equalizeHist(ycrcb_img[:, :, 0])
+
+            # convert back to RGB color-space from YCrCb
+            equalized_img = cv.cvtColor(ycrcb_img, cv.COLOR_YCrCb2BGR)
+
+            cv.imwrite(os.path.join(output_dir, filename), equalized_img)
 
 
 if __name__ == "__main__":

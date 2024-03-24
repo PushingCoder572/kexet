@@ -6,6 +6,7 @@ input_dir = "images_noise_reduction"
 output_dir = "output_noise_reduction"
 
 
+# TODO: Think about compressing the image to reduce the size
 def main():
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
