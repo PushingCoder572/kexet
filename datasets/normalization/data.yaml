@@ -8,6 +8,6 @@ names: ['P-skylt', 'avstignnigsplats', 'lastplats']
 roboflow:
   workspace: maximillian
   project: parkeringsskylt
-  version: 6
+  version: 7
   license: CC BY 4.0
-  url: https://universe.roboflow.com/maximillian/parkeringsskylt/dataset/6
+  url: https://universe.roboflow.com/maximillian/parkeringsskylt/dataset/7

@@ -1,4 +1,4 @@
-# Parkeringsskylt > 2024-03-24 10:41am
+# Parkeringsskylt > 2024-03-28 4:16pm
 https://universe.roboflow.com/maximillian/parkeringsskylt
 
 Provided by a Roboflow user
