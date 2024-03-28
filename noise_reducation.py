@@ -2,9 +2,14 @@ import os
 import cv2 as cv
 
 
-input_dir = "images_noise_reduction"
-output_dir = "output_noise_reduction"
+#input_dir = "../datasets/Parkeringsskylt.v6i.yolov8/train/images"
+#output_dir = "../datasets/Parkeringsskylt.v6i.yolov8/train/noisereduction_images/"
 
+#input_dir = "../datasets/Parkeringsskylt.v6i.yolov8/test/images"
+#output_dir = "../datasets/Parkeringsskylt.v6i.yolov8/test/noisereduction_images/"
+
+input_dir = "../datasets/Parkeringsskylt.v6i.yolov8/valid/images"
+output_dir = "../datasets/Parkeringsskylt.v6i.yolov8/valid/noisereduction_images/"
 
 # TODO: Think about compressing the image to reduce the size
 def main():

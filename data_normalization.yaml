@@ -1,0 +1,6 @@
+train: ./normalization/train/images
+val: ./normalization/valid/images
+test: ./normalization/test/images
+
+nc: 3
+names: ['P-skylt', 'avstignnigsplats', 'lastplats']

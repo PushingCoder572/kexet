@@ -1,0 +1,6 @@
+train: ./standard/train/images
+val: ./standard/valid/images
+test: ./standard/test/images
+
+nc: 3
+names: ['P-skylt', 'avstignnigsplats', 'lastplats']

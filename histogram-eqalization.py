@@ -2,8 +2,14 @@ import os
 import cv2 as cv
 
 
-input_dir = "images_histogramequalization"
-output_dir = "output_histogramequalization"
+#input_dir = "../datasets/Parkeringsskylt.v6i.yolov8/train/images"
+#output_dir = "../datasets/Parkeringsskylt.v6i.yolov8/train/histogram-eqalization_images/"
+
+#input_dir = "../datasets/Parkeringsskylt.v6i.yolov8/test/images"
+#output_dir = "../datasets/Parkeringsskylt.v6i.yolov8/test/histogram-eqalization_images/"
+
+input_dir = "../datasets/Parkeringsskylt.v6i.yolov8/valid/images"
+output_dir = "../datasets/Parkeringsskylt.v6i.yolov8/valid/histogram-eqalization_images/"
 
 
 def main():

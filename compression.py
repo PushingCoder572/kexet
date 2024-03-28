@@ -1,8 +1,15 @@
 import os
 from PIL import Image
 
-input_dir = "images_compressed"
-output_dir = "output_compressed"
+
+#input_dir = "../datasets/Parkeringsskylt.v6i.yolov8/train/images"
+#output_dir = "../datasets/Parkeringsskylt.v6i.yolov8/train/compression_images/"
+
+#input_dir = "../datasets/Parkeringsskylt.v6i.yolov8/test/images"
+#output_dir = "../datasets/Parkeringsskylt.v6i.yolov8/test/compression_images/"
+
+input_dir = "../datasets/Parkeringsskylt.v6i.yolov8/valid/images"
+output_dir = "../datasets/Parkeringsskylt.v6i.yolov8/valid/compression_images/"
 
 
 def main():

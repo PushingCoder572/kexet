@@ -2,8 +2,14 @@ import os
 import cv2 as cv
 import numpy as np
 
-input_dir = "images_normalized"
-output_dir = "output_normalized"
+#input_dir = "../datasets/Parkeringsskylt.v6i.yolov8/train/images"
+#output_dir = "../datasets/Parkeringsskylt.v6i.yolov8/train/normalization_images/"
+
+#input_dir = "../datasets/Parkeringsskylt.v6i.yolov8/test/images"
+#output_dir = "../datasets/Parkeringsskylt.v6i.yolov8/test/normalization_images/"
+
+input_dir = "../datasets/Parkeringsskylt.v6i.yolov8/valid/images"
+output_dir = "../datasets/Parkeringsskylt.v6i.yolov8/valid/normalization_images/"
 
 
 def main():
