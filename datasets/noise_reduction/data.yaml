@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['P-skylt', 'avstignnigsplats', 'lastplats']
+
+roboflow:
+  workspace: maximillian
+  project: parkeringsskylt
+  version: 7
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/maximillian/parkeringsskylt/dataset/7
