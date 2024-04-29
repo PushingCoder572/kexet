@@ -1,8 +1,8 @@
 
-Parkeringsskylt - v7 2024-03-28 4:16pm
+identifyer - v2 2024-04-29 4:21pm
 ==============================
 
-This dataset was exported via roboflow.com on March 28, 2024 at 3:17 PM GMT
+This dataset was exported via roboflow.com on April 29, 2024 at 2:25 PM GMT
 
 Roboflow is an end-to-end computer vision platform that helps you
 * collaborate with your team on computer vision projects
@@ -17,7 +17,7 @@ visit https://github.com/roboflow/notebooks
 
 To find over 100k other datasets and pre-trained models, visit https://universe.roboflow.com
 
-The dataset includes 995 images.
+The dataset includes 454 images.
 Objects are annotated in YOLOv8 format.
 
 The following pre-processing was applied to each image:
