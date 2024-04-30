@@ -2,12 +2,12 @@ train: ../train/images
 val: ../valid/images
 test: ../test/images
 
-nc: 5
-names: ['crosswalk', 'lastplats', 'parking_forbidden', 'psign', 'stopping_forbidden']
+nc: 3
+names: ['lastplats', 'parking_forbidden', 'psign']
 
 roboflow:
   workspace: zakarias-hedenfalk
   project: identifyer
-  version: 2
+  version: 4
   license: CC BY 4.0
-  url: https://universe.roboflow.com/zakarias-hedenfalk/identifyer/dataset/2
+  url: https://universe.roboflow.com/zakarias-hedenfalk/identifyer/dataset/4

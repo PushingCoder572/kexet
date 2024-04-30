@@ -1,6 +1,6 @@
-train: ./standard/train/images
-val: ./standard/valid/images
-test: ./standard/test/images
+train: ./original_data/train/images
+val: ./original_data/valid/images
+test: ./original_data/test/images
 
 nc: 3
-names: ['P-skylt', 'avstignnigsplats', 'lastplats']
+names: ['lastplats', 'parking_forbidden', 'psign']
