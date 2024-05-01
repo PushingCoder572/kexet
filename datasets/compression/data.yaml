@@ -2,12 +2,12 @@ train: ../train/images
 val: ../valid/images
 test: ../test/images
 
-nc: 3
-names: ['lastplats', 'parking_forbidden', 'psign']
+nc: 2
+names: ['lastplats', 'psign']
 
 roboflow:
   workspace: zakarias-hedenfalk
-  project: identifyer
-  version: 4
+  project: labelbox-to-roboflow
+  version: 1
   license: CC BY 4.0
-  url: https://universe.roboflow.com/zakarias-hedenfalk/identifyer/dataset/4
+  url: https://universe.roboflow.com/zakarias-hedenfalk/labelbox-to-roboflow/dataset/1
