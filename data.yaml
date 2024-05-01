@@ -2,5 +2,5 @@ train: ./original_data/train/images
 val: ./original_data/valid/images
 test: ./original_data/test/images
 
-nc: 3
-names: ['lastplats', 'parking_forbidden', 'psign']
+nc: 2
+names: ['lastplats', 'psign']
