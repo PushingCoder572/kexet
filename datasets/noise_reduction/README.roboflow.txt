@@ -1,8 +1,8 @@
 
-Labelbox to Roboflow - v1 2024-05-01 12:41pm
+Labelbox to Roboflow - v2 2024-05-02 5:17pm
 ==============================
 
-This dataset was exported via roboflow.com on May 1, 2024 at 10:42 AM GMT
+This dataset was exported via roboflow.com on May 2, 2024 at 3:19 PM GMT
 
 Roboflow is an end-to-end computer vision platform that helps you
 * collaborate with your team on computer vision projects
@@ -17,7 +17,7 @@ visit https://github.com/roboflow/notebooks
 
 To find over 100k other datasets and pre-trained models, visit https://universe.roboflow.com
 
-The dataset includes 274 images.
+The dataset includes 297 images.
 Parking-signs are annotated in YOLOv8 format.
 
 The following pre-processing was applied to each image:

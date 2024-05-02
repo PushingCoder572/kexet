@@ -8,6 +8,6 @@ names: ['lastplats', 'psign']
 roboflow:
   workspace: zakarias-hedenfalk
   project: labelbox-to-roboflow
-  version: 1
+  version: 2
   license: CC BY 4.0
-  url: https://universe.roboflow.com/zakarias-hedenfalk/labelbox-to-roboflow/dataset/1
+  url: https://universe.roboflow.com/zakarias-hedenfalk/labelbox-to-roboflow/dataset/2
